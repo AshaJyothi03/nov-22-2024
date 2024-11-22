@@ -1,0 +1,8 @@
+#write a python prog using files using files sum of two numbers results to the desired file
+with open("c:/users/public/nov22.txt","a") as fptr:
+    a=202
+    b=30
+    c=a+b
+    fptr.write(f"sum:{c}")
+
+print("addition successfully")
