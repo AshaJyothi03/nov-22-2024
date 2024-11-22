@@ -1,0 +1,8 @@
+'''
+Write Python Program to Read and Print Each  Line in "egypt.txt" file.
+# Sample Content of "egypt.txt" File is Given Below.
+'''
+with open("c:/users/public/egypt.txt","r") as fptr:
+    data=fptr.readlines()
+    print(data)
+print("read successfully")
