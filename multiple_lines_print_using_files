@@ -1,0 +1,4 @@
+fptr=open("c:/users/public/sample.txt","w")
+for i in range(11):
+    fptr.write("welcome\n")
+fptr.close()
